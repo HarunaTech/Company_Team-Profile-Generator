@@ -39,6 +39,7 @@ function managerInfo() {
       },
     ])
     .then((answers) => {
+        console.log(answers);
       const manager = new Manager(
         answers.name,
         answers.ID,
@@ -48,3 +49,4 @@ function managerInfo() {
       teamMembers.push(manager);
     });
 }
+managerInfo();
