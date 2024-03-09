@@ -19,8 +19,9 @@ function writeToFile(fileName, data) {
 
 // TODO: Write Code to gather information about the development team members, and render the HTML file.
 
+// This function is for manager information 
 let teamMembers = [];
-function managerInfo() {
+function managerInfo() { 
   inquirer
     .prompt([
       {
@@ -82,7 +83,7 @@ function menuInfo() {
     });
 }
 
-
+// This is the function written for the intern
 function internInfo() {
   inquirer
     .prompt([
@@ -120,7 +121,7 @@ function internInfo() {
     });
 }
 
-
+// This is the Engineer info function
 function engineerInfo() {
   inquirer
     .prompt([

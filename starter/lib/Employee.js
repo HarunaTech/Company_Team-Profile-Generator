@@ -4,7 +4,8 @@ class Employee {
         this.name = name;
         this.id = id;
         this.email = email;
-    }  // how to add item to our class
+    } 
+     // This line of code is to add item to employee class  
     getName(){
         return this.name
     }
