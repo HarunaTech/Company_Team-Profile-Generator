@@ -66,7 +66,7 @@ function menuInfo() {
         type: "list",
         name: "menu",
         message:
-          "Would you like to add an Engineer, an intern or finish building the team?",
+          "Would you like to add an Engineer, an intern or finish building the team?", //  Prompt message to choose 
         choices: ["Engineer", "an intern", "finish building the team"],
       },
     ])
@@ -105,7 +105,7 @@ function internInfo() {
       {
         type: "input",
         name: "school",
-        message: "What is your interns's school?",
+        message: "What is the name your interns's school?",
       },
     ])
     .then((answers) => {
@@ -143,7 +143,7 @@ function engineerInfo() {
       {
         type: "input",
         name: "Github",
-        message: "What is your Github ?",
+        message: "What is your engineer's Github account?",
       },
     ])
     .then((answers) => {
